@@ -65,9 +65,11 @@ header {
 }
 .hero {
     background-image: url('model-1.jpg');
-    background-size: cover;
+    background-size:cover ;
+    
     height: 500px;
     margin: 0;
+   
 }
 section{
     margin: 0px;
@@ -76,7 +78,7 @@ section{
 .hero-text{
     position: relative;
     top: 150px;
-    left: -80px;
+    left: -50px;
     font-weight: bold;
     font-size: 17px;
     text-align: center;
@@ -309,7 +311,7 @@ h2 {
     position: relative;
     left: 0;
     bottom: 0;
-    height: 210px;
+    height: 250px;
     background: rgba(184, 184, 183, 0.8);
     width: 100%;
     overflow: hidden;
@@ -427,3 +429,10 @@ h2 {
             height: 550px;
         }
     }
+
+@media (max-width:400px){
+    .hero{
+        background-position-x: -100px;
+    }
+
+}
